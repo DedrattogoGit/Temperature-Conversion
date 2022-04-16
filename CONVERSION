@@ -1,0 +1,26 @@
+import java.util.Scanner;
+
+
+
+public class Main
+{
+	public static void main(String[] args) {
+		System.out.println("Welcome to the Temperature Converter!");
+		scanner Celsius = new Scanner(System.in);
+		scanner Fahrenheit = new Scanner(System.in);
+    scanner yon = new Scanner(System.in);
+		System.out.println("Do you want to convert Celsius to Fahrenheit? 1 for yes, 0 for no.");
+		int c = yon.nextInt();
+		if (c == 1) {
+    System.out.println("Choose a Celsius and a Fahrenheit.");   
+		int a = Celsius.nextInt();
+    int b = Fahrenheit.nextInt();
+        
+		}else {
+		    System.out.println("So Fahrenheit to Celsius? Ok!");
+        
+        
+        
+		}
+	}
+}
